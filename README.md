@@ -1,1 +1,2 @@
-# JSON Example with Jackson libarry
+# JSON Example with Jackson library
+## Jackson comes by default with spring boot

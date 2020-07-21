@@ -17,6 +17,9 @@ import com.fasterxml.jackson.databind.ser.std.StdSerializer;
 
 public class DateDeserializer extends StdDeserializer<Date> {
 
+	private static final long serialVersionUID = 1L;
+
+	// Needed a default constructor and pass Object class to whci you are going to deserialize 
 	public DateDeserializer() {
 		super(Date.class);
 	}
